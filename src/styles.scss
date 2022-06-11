@@ -1,1 +1,106 @@
-/* You can add global styles to this file, and also import other style files */
+$gs-blue : #1976D2;
+$gs-grey : #F1F1F1;
+$gs-light: #FFFFFF;
+
+.gs-bg-light 
+{
+    background-color: $gs-light;
+}
+.gs-bg-grey 
+{
+    background-color: $gs-grey;
+}
+
+*
+{
+    padding: 0 !important;
+    margin: 0 !important;
+    font-family: sans-serif !important;
+}
+.gs-navbar 
+{
+    height: 10vh;
+    background-color: $gs-blue;
+}
+.gs-navbar .gs-nav-link
+{
+    color: white !important;
+    font-size: 18px !important;
+    padding: 5px 15px !important;
+}
+.gs-b-h 
+{
+    height: 90vh;
+}
+.gs-container
+{
+    width: 100%;
+}
+.gs-body 
+{
+    width: 80%;
+    float: right;
+    position: fixed;
+    top: 10vh;
+    right: 0;
+    transition: .5s;
+}
+.gs-body-full 
+{
+    width: 100%;
+    top: 10vh;
+    right: 0;
+    position: fixed;
+    transition: .5s;
+}
+.gs-sidebar 
+{
+
+    width: 20%;
+    top: 10vh;
+    left: 0;
+    transition: 0.5s;
+    position: fixed;
+    min-width: 200px;
+    z-index:1;
+}
+.gs-sidebar-close
+{
+    width: 20%;
+    top: 10vh;
+    transition: 0.5s;
+    transform: translateX(-100%);
+}
+.gs-sidebar-toggle
+{
+    font-size: 25px;
+    position: fixed;
+    top: 2vh;
+    left: 2vw;
+    z-index: 1;
+    transition: .5s;
+    width: 25px;
+}
+.gs-side-menu 
+{
+    width: 20px;
+}
+
+.gs-side-content 
+{
+    padding: 10px !important;
+}
+.gs-ul 
+{
+    padding: 10px !important;
+    list-style: none;
+}
+.gs-li 
+{
+    padding: 10px !important;
+}
+.gs-li a 
+{
+    text-decoration: none;
+    font-size: 18px !important;
+}
